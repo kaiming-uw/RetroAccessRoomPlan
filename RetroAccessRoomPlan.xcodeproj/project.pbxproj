@@ -16,6 +16,8 @@
 		37482EA32873616C00503E1D /* RetroAccessRoomPlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37482EA22873616C00503E1D /* RetroAccessRoomPlanTests.swift */; };
 		37482EAD2873616C00503E1D /* RetroAccessRoomPlanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37482EAC2873616C00503E1D /* RetroAccessRoomPlanUITests.swift */; };
 		37482EAF2873616C00503E1D /* RetroAccessRoomPlanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37482EAE2873616C00503E1D /* RetroAccessRoomPlanUITestsLaunchTests.swift */; };
+		37482EBD2873622A00503E1D /* RoomObjectReplicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37482EBC2873622A00503E1D /* RoomObjectReplicator.swift */; };
+		37482EBF2873625200503E1D /* RoomObjectSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37482EBE2873625200503E1D /* RoomObjectSystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		37482EA82873616C00503E1D /* RetroAccessRoomPlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroAccessRoomPlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37482EAC2873616C00503E1D /* RetroAccessRoomPlanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroAccessRoomPlanUITests.swift; sourceTree = "<group>"; };
 		37482EAE2873616C00503E1D /* RetroAccessRoomPlanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroAccessRoomPlanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37482EBC2873622A00503E1D /* RoomObjectReplicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomObjectReplicator.swift; sourceTree = "<group>"; };
+		37482EBE2873625200503E1D /* RoomObjectSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomObjectSystem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +103,13 @@
 			isa = PBXGroup;
 			children = (
 				37482E8C2873616B00503E1D /* AppDelegate.swift */,
-				37482E8E2873616B00503E1D /* ViewController.swift */,
 				37482E902873616B00503E1D /* Experience.rcproject */,
 				37482E922873616B00503E1D /* Main.storyboard */,
+				37482E8E2873616B00503E1D /* ViewController.swift */,
 				37482E952873616C00503E1D /* Assets.xcassets */,
 				37482E972873616C00503E1D /* LaunchScreen.storyboard */,
+				37482EBC2873622A00503E1D /* RoomObjectReplicator.swift */,
+				37482EBE2873625200503E1D /* RoomObjectSystem.swift */,
 			);
 			path = RetroAccessRoomPlan;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37482EBF2873625200503E1D /* RoomObjectSystem.swift in Sources */,
 				37482E8F2873616B00503E1D /* ViewController.swift in Sources */,
+				37482EBD2873622A00503E1D /* RoomObjectReplicator.swift in Sources */,
 				37482E8D2873616B00503E1D /* AppDelegate.swift in Sources */,
 				37482E912873616B00503E1D /* Experience.rcproject in Sources */,
 			);
